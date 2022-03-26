@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>Cam</title>
+    <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+    <script src="https://unpkg.com/video.js/dist/video.js"></script>
+    <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+    <style>
+        iframe {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe src="https://g0.ipcamlive.com/player/player.php?alias=lumepark&autoplay=1" name="myFrame"></iframe>
+    <iframe src="https://stream45.levira.com/player/teletorn.html" name="myFrame"></iframe>
+    <video id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" width="auto" height="500"
+        data-setup='{}'>
+        <source
+            src="https://edge01.balticlivecam.com/blc/PanoTallinnMoving/index.m3u8?token=7799b4ed1c4ab0d1bf6b7c462a1f326b:1648327850170"
+            type="application/x-mpegURL">
+    </video>
+    <iframe src="https://ilm.ee/rand_pirita/image.jpg?1648329791?rand=611423" name="myFrame"></iframe>
+    <iframe src="https://g2.ipcamlive.com/player/player.php?alias=dagmar" name="myFrame"></iframe>
+    <iframe src="https://www.youtube.com/watch?v=z2Lkq9kdPk0&ab_channel=KasmuMeremuuseum" name="myFrame"></iframe>
+    <script>
+    </script>
+</body>
+</html>
